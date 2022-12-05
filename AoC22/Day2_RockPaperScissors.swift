@@ -111,7 +111,7 @@ extension Round {
     }
 }
 
-// Mapper
+// Mappers
 extension Shape {
     static func from(_ input: String) -> Shape {
         if input == "A" || input == "X" {
@@ -124,7 +124,6 @@ extension Shape {
     }
 }
 
-// Mapper
 extension Outcome {
     static func from(_ input: String) -> Outcome {
         if input == "X" {
