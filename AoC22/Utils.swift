@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import XCTest
 
 extension String {
     static func fromFile(_ filename: String, extenison : String = ".txt") throws -> String? {
@@ -36,5 +37,11 @@ extension Sequence where Element: AdditiveArithmetic {
 extension Int {
     static func fromStrings(_ array: [String]) -> [Int] {
         return array.compactMap(Int.init)
+    }
+}
+
+extension XCTestCase {
+    static var missingFileError : Error {
+        return NSError(domain: "Missing File", code: 0)
     }
 }
