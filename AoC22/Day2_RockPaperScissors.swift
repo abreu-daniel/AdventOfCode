@@ -71,7 +71,7 @@ extension Outcome {
             return .win
         case (.rock, .rock), (.paper, .paper), (.scissors, .scissors):
             return .tie
-        default:
+        case (.rock, .scissors), (.paper, .rock), (.scissors, .paper):
             return .loss
         }
     }
