@@ -64,19 +64,6 @@ extension Round {
     }
 }
 
-extension Shape {
-    static func given(elfShape: Shape, outcome: Outcome) -> Shape {
-        switch (elfShape, outcome) {
-        case (.rock, .win), (.paper, .tie), (.scissors, .loss):
-            return .paper
-        case (.rock, .tie), (.paper, .loss), (.scissors, .win):
-            return .rock
-        case (.rock, .loss), (.paper, .win), (.scissors, .tie):
-            return .scissors
-        }
-    }
-}
-
 extension Outcome {
     static func given(elfShape: Shape, playerShape: Shape) -> Outcome {
         switch (elfShape, playerShape) {
@@ -86,6 +73,19 @@ extension Outcome {
             return .tie
         default:
             return .loss
+        }
+    }
+}
+
+extension Shape {
+    static func given(elfShape: Shape, outcome: Outcome) -> Shape {
+        switch (elfShape, outcome) {
+        case (.rock, .win), (.paper, .tie), (.scissors, .loss):
+            return .paper
+        case (.rock, .tie), (.paper, .loss), (.scissors, .win):
+            return .rock
+        case (.rock, .loss), (.paper, .win), (.scissors, .tie):
+            return .scissors
         }
     }
 }
