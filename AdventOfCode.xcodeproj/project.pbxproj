@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< Updated upstream
+=======
+		6507108B2940C75D00584512 /* Day3_RucksackReorganization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6507108A2940C75D00584512 /* Day3_RucksackReorganization.swift */; };
+		6507108D2940C8E700584512 /* 3a.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6507108C2940C8E700584512 /* 3a.txt */; };
+		653990D7293E805200FDCDA2 /* 2a.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653990D6293E805200FDCDA2 /* 2a.txt */; };
+		653990D9293E807200FDCDA2 /* Day2_RockPaperScissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653990D8293E807200FDCDA2 /* Day2_RockPaperScissors.swift */; };
+>>>>>>> Stashed changes
 		655071BD29389E2600143C2F /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655071BC29389E2600143C2F /* Day1.swift */; };
 		655071C029389F0600143C2F /* 1a.txt in Resources */ = {isa = PBXBuildFile; fileRef = 655071BF29389F0600143C2F /* 1a.txt */; };
 		65A142F52938E0D700342BFD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A142F42938E0D700342BFD /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6507108A2940C75D00584512 /* Day3_RucksackReorganization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3_RucksackReorganization.swift; sourceTree = "<group>"; };
+		6507108C2940C8E700584512 /* 3a.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3a.txt; sourceTree = "<group>"; };
 		652C3329288EB84B007CCF96 /* AdventOfCode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdventOfCode-Bridging-Header.h"; sourceTree = "<group>"; };
 		652C332A288EB84C007CCF96 /* Day1-SonarSweep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day1-SonarSweep.swift"; sourceTree = "<group>"; };
 		652C332C288EC9FE007CCF96 /* Day2-Dive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day2-Dive.swift"; sourceTree = "<group>"; };
@@ -69,6 +78,11 @@
 			children = (
 				655071BE29389ED400143C2F /* Inputs */,
 				655071BC29389E2600143C2F /* Day1.swift */,
+<<<<<<< Updated upstream
+=======
+				653990D8293E807200FDCDA2 /* Day2_RockPaperScissors.swift */,
+				6507108A2940C75D00584512 /* Day3_RucksackReorganization.swift */,
+>>>>>>> Stashed changes
 				65A142F42938E0D700342BFD /* Utils.swift */,
 			);
 			path = AoC22;
@@ -77,6 +91,11 @@
 		655071BE29389ED400143C2F /* Inputs */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
+=======
+				6507108C2940C8E700584512 /* 3a.txt */,
+				653990D6293E805200FDCDA2 /* 2a.txt */,
+>>>>>>> Stashed changes
 				655071BF29389F0600143C2F /* 1a.txt */,
 			);
 			path = Inputs;
@@ -142,6 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				655071C029389F0600143C2F /* 1a.txt in Resources */,
+<<<<<<< Updated upstream
+=======
+				653990D7293E805200FDCDA2 /* 2a.txt in Resources */,
+				6507108D2940C8E700584512 /* 3a.txt in Resources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				655071BD29389E2600143C2F /* Day1.swift in Sources */,
+<<<<<<< Updated upstream
+=======
+				6507108B2940C75D00584512 /* Day3_RucksackReorganization.swift in Sources */,
+				653990D9293E807200FDCDA2 /* Day2_RockPaperScissors.swift in Sources */,
+>>>>>>> Stashed changes
 				65A142F52938E0D700342BFD /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
