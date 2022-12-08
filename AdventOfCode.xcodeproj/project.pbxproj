@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65058AED2942001800E6F767 /* 5a.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65058AEC2942001800E6F767 /* 5a.txt */; };
+		65058AEF2942002500E6F767 /* Day5_SupplyStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65058AEE2942002500E6F767 /* Day5_SupplyStacks.swift */; };
 		6507108B2940C75D00584512 /* Day3_RucksackReorganization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6507108A2940C75D00584512 /* Day3_RucksackReorganization.swift */; };
 		6507108D2940C8E700584512 /* 3a.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6507108C2940C8E700584512 /* 3a.txt */; };
 		653990D7293E805200FDCDA2 /* 2a.txt in Resources */ = {isa = PBXBuildFile; fileRef = 653990D6293E805200FDCDA2 /* 2a.txt */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65058AEC2942001800E6F767 /* 5a.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 5a.txt; sourceTree = "<group>"; };
+		65058AEE2942002500E6F767 /* Day5_SupplyStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5_SupplyStacks.swift; sourceTree = "<group>"; };
 		6507108A2940C75D00584512 /* Day3_RucksackReorganization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3_RucksackReorganization.swift; sourceTree = "<group>"; };
 		6507108C2940C8E700584512 /* 3a.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3a.txt; sourceTree = "<group>"; };
 		652C3329288EB84B007CCF96 /* AdventOfCode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdventOfCode-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -80,11 +84,12 @@
 			isa = PBXGroup;
 			children = (
 				655071BE29389ED400143C2F /* Inputs */,
+				65A142F42938E0D700342BFD /* Utils.swift */,
 				655071BC29389E2600143C2F /* Day1.swift */,
 				653990D8293E807200FDCDA2 /* Day2_RockPaperScissors.swift */,
 				6507108A2940C75D00584512 /* Day3_RucksackReorganization.swift */,
 				65B4AE732941E0CE003D80F2 /* Day4_CampCleanup.swift */,
-				65A142F42938E0D700342BFD /* Utils.swift */,
+				65058AEE2942002500E6F767 /* Day5_SupplyStacks.swift */,
 			);
 			path = AoC22;
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 		655071BE29389ED400143C2F /* Inputs */ = {
 			isa = PBXGroup;
 			children = (
+				65058AEC2942001800E6F767 /* 5a.txt */,
 				65B4AE752941E165003D80F2 /* 4a.txt */,
 				6507108C2940C8E700584512 /* 3a.txt */,
 				653990D6293E805200FDCDA2 /* 2a.txt */,
@@ -159,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65058AED2942001800E6F767 /* 5a.txt in Resources */,
 				655071C029389F0600143C2F /* 1a.txt in Resources */,
 				65B4AE762941E165003D80F2 /* 4a.txt in Resources */,
 				653990D7293E805200FDCDA2 /* 2a.txt in Resources */,
@@ -173,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65058AEF2942002500E6F767 /* Day5_SupplyStacks.swift in Sources */,
 				65B4AE782941E1B5003D80F2 /* Day4_CampCleanup.swift in Sources */,
 				655071BD29389E2600143C2F /* Day1.swift in Sources */,
 				6507108B2940C75D00584512 /* Day3_RucksackReorganization.swift in Sources */,
