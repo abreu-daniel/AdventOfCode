@@ -18,13 +18,19 @@ extension String {
 }
 
 extension Array {
-    func split(on condition: (Element)->Bool) -> [[Element]] {
+    func chunked(on condition: (Element)->Bool) -> [[Element]] {
         let splitLocations : [Int] = self.enumerated().compactMap({ condition($1) ? $0 : nil })
         return (0..<splitLocations.count).map({ i in
             let start = i == 0 ? 0 : splitLocations[i - 1]
             let stop = splitLocations[i]
             return Array(self[start..<stop])
         })
+    }
+    
+    func chunked(into size: Int) -> [[Element]] {
+        return stride(from: 0, to: count, by: size).map {
+            Array(self[$0 ..< Swift.min($0 + size, count)])
+        }
     }
 }
 

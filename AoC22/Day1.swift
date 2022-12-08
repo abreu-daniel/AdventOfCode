@@ -13,7 +13,7 @@ final class Day1: XCTestCase {
         guard let input = try? String.fromFile("1a") else { XCTFail("Missing input file"); return }
          
         let calories = input.components(separatedBy: .newlines)
-                            .split(on: { $0.isEmpty })
+                            .chunked(on: { $0.isEmpty })
                             .map(Int.fromStrings)
 
         var caloriesSum = calories.map({ $0.sum() })
@@ -25,7 +25,7 @@ final class Day1: XCTestCase {
         guard let input = try? String.fromFile("1a") else { XCTFail("Missing input file"); return }
         
         let calories = input.components(separatedBy: .newlines)
-                            .split(on: { $0.isEmpty })
+                            .chunked(on: { $0.isEmpty })
                             .map(Int.fromStrings)
         
         var caloriesSum = calories.map({ $0.sum() }).sorted(by: >)
