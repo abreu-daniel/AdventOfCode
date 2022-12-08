@@ -16,7 +16,7 @@ final class Day1: XCTestCase {
                             .chunked(on: { $0.isEmpty })
                             .map(Int.fromStrings)
 
-        var caloriesSum = calories.map({ $0.sum() })
+        let caloriesSum = calories.map({ $0.sum() })
         let solution = caloriesSum.max()!
         print(solution)
     }
@@ -28,7 +28,7 @@ final class Day1: XCTestCase {
                             .chunked(on: { $0.isEmpty })
                             .map(Int.fromStrings)
         
-        var caloriesSum = calories.map({ $0.sum() }).sorted(by: >)
+        let caloriesSum = calories.map({ $0.sum() }).sorted(by: >)
         let solution = caloriesSum[0..<3].sum()
         print(solution)
     }
