@@ -101,7 +101,6 @@ fileprivate extension CraneInstruction {
 }
 
 extension Array where Element == String {
-    
     mutating func pop(_  n : Int = 1) -> [String] {
         return (0..<n).reduce([], { (acc, next) in
             return  acc + [self.removeLast()]
